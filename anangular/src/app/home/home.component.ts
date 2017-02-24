@@ -2,7 +2,9 @@ import { Component } from "@angular/core";
 
 @Component({
   selector: "home",
-  template: `<h1>Home page</h1>`
+  template: `<a routerLink="/home" routerLinkActive="active">Home</a>
+<a routerLink="/skills" routerLinkActive="active">Skills</a>
+<a routerLink="/contacts" routerLinkActive="active">Contacts</a>`
 })
 
 
